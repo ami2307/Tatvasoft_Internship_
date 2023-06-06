@@ -1,0 +1,84 @@
+/* Register page css */
+*{
+    /* background-color: rgb(255, 204, 127); */
+}
+.log_maindiv{
+    background: #f1d2fa; 
+    border-radius: 20px;
+    width: 1000px;
+    height: 300px;
+    margin: auto;
+    padding: 35px;
+
+}
+.reg_full_form{
+    background: #f1d2fa; 
+    border-radius: 20px;
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    padding: 35px;
+}
+.reg_single_row{
+    /* background: brown; */
+    width: 100%;
+    display: flex;
+    padding-top: 10px;
+}
+.reg_single_row input{
+    min-width: 750px;
+}
+.reg_single_column{
+    /* background: lightblue; */
+    width:50%
+}
+.reg_single_column input{
+    min-width: 350px;
+}
+.reg_err{
+    color:red;
+    padding: 0px;
+    font-size: small;
+}
+
+
+/* Header css */
+.hed_div{
+    display: flex;
+}
+.hed_subdiv{
+    padding-left: 1000px;
+}
+.hed_div2{
+    height: 70px;
+    justify-content: end;
+    /* background-color:rgb(228, 245, 220) */
+}
+.hed_stack{
+    justify-content: center;
+    padding-top: 14px;
+}
+
+/* Login Css */
+.log_maindiv{
+   display: flex;
+    justify-content:center;
+    /* background-color: aqua; */
+}
+.log_subdiv1{
+    /* background-color: bisque; */
+    width: 350px;
+}
+.log_subdiv2{
+    padding-left: 80px;
+    /* background-color: blueviolet; */
+    width: 300px;
+}
+.log_subdiv2 input{
+    min-width: 300px;
+    
+}
+.log_subdiv2 p{
+    margin: 0px 0px 20px 0px;
+    font-size: small;
+}
